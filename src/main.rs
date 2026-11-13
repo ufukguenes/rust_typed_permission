@@ -1,9 +1,9 @@
 use std::marker::PhantomData;
 
-use crate::secrecy::*;
+use crate::permission::*;
 
 mod patient;
-mod secrecy;
+mod permission;
 
 pub struct Height<L: Level2>(usize, PhantomData<L>);
 
