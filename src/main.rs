@@ -2,7 +2,7 @@ use std::marker::PhantomData;
 
 use crate::secrecy::*;
 
-mod process;
+mod patient;
 mod secrecy;
 
 pub struct Height<L: Level2>(usize, PhantomData<L>);
